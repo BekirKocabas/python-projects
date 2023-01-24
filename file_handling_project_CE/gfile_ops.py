@@ -1,8 +1,8 @@
 def read_file(file_name):
     """ Reads in a file.    
-        1. Open and read the given file into a variable 
-        2. Print the contents of the file
-        3. Return the contents of the file    
+        1. Opened and read the given file into a variable 
+        2. Printed the contents of the file
+        3. Returned the contents of the file    
     """    
 
     with open(file_name, mode='r') as f: #open the given file
